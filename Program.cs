@@ -6,12 +6,16 @@
         Console.WriteLine("This was added for develop");
         Flow flow = new Flow();
         flow.Name = "Ben";
+        Console.Write("Enter if gender is m or f: ");
+        char keyChar = Console.ReadKey().KeyChar;
+        flow.Gender = keyChar == 'm';
     }
 }
 
 class Flow
 {
     public string name;
+    public bool gender;
 
     public Flow()
     {
@@ -24,6 +28,16 @@ class Flow
         {
             name = value.ToString();
             Console.WriteLine(name);
+        }
+    }
+
+    public bool Gender
+    {
+        get { return gender; }
+        set 
+        {
+            gender = value;
+            Console.WriteLine(gender);
         }
     }
 }

@@ -31,13 +31,5 @@ class Flow
         }
     }
     //added for feature-testforlocal
-    public bool Gender
-    {
-        get { return gender; }
-        set 
-        {
-            gender = value;
-            Console.WriteLine(gender);
-        }
-    }
+
 }

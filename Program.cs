@@ -30,10 +30,7 @@ class Flow
             Console.WriteLine(name);
         }
     }
-<<<<<<< HEAD
     //added for feature-testforlocal
-=======
-
     public bool Gender
     {
         get { return gender; }
@@ -43,5 +40,4 @@ class Flow
             Console.WriteLine(gender);
         }
     }
->>>>>>> develop
 }
